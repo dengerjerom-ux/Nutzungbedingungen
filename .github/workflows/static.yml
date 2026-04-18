@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutzungsbedingungen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg1: #0b0f1a;
+      --bg2: #0f172a;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.1);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #7c3aed;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, var(--bg2), var(--bg1));
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .watermark {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.04;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .watermark img {
+      width: 500px;
+      filter: blur(0.3px);
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 30px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 40px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header img {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 18px;
+      color: #ffffff;
+      border-left: 3px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin-top: 10px;
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .list {
+      margin-top: 10px;
+      padding-left: 18px;
+      color: var(--text);
+    }
+
+    .list li {
+      margin-bottom: 6px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="watermark">
+    <img src="Syntex.avif" alt="Logo Watermark" />
+  </div>
+
+  <div class="container">
+    <div class="card">
+
+      <header>
+        <img src="Syntex.avif" alt="Logo" />
+        <h1>Nutzungsbedingungen</h1>
+        <div class="date">Letzte Aktualisierung: 18. April 2026</div>
+      </header>
+
+      <p>Mit der Nutzung unserer Hosting-, Bot- und Custom-Service-Angebote stimmen Sie diesen Nutzungsbedingungen vollständig zu. Bitte lesen Sie diese sorgfältig. Wenn Sie nicht zustimmen, dürfen Sie unsere Dienste nicht verwenden.</p>
+
+      <h2>1. Allgemeine Bestimmungen</h2>
+      <p>Diese Nutzungsbedingungen gelten für sämtliche angebotenen Leistungen, insbesondere:</p>
+      <ul class="list">
+        <li>Discord-Bot-Hosting</li>
+        <li>Web-Hosting</li>
+        <li>Individuelle Bot-Entwicklung (Custom Bots)</li>
+        <li>Software- und Projektentwicklung</li>
+        <li>Design-Leistungen</li>
+        <li>Support, Wartung und technische Betreuung</li>
+      </ul>
+
+      <p>Unsere Dienste dienen der Bereitstellung technischer Lösungen für Server, Bots und digitale Projekte.</p>
+
+      <h2>2. Zulässige Nutzung</h2>
+      <p>Die Nutzung ist ausschließlich im Rahmen der geltenden Gesetze sowie der Discord-Richtlinien erlaubt.</p>
+      <ul class="list">
+        <li>Illegale Nutzung</li>
+        <li>Spam oder automatisierte Störungen</li>
+        <li>DDoS-Angriffe</li>
+        <li>Phishing oder Betrug</li>
+        <li>Malware-Verbreitung</li>
+        <li>Systemmanipulation</li>
+        <li>Ausnutzung von Sicherheitslücken</li>
+      </ul>
+
+      <p>Verstöße führen zur sofortigen Sperrung.</p>
+
+      <h2>3. Zahlungsbedingungen</h2>
+      <p>Alle Leistungen sind kostenpflichtig, sofern nicht anders vereinbart.</p>
+      <ul class="list">
+        <li>Zahlungen sind verbindlich</li>
+        <li>Keine Rückerstattung bei begonnenen Projekten</li>
+        <li>Keine Stornierung nach Projektstart</li>
+        <li>Sperrung bei Zahlungsverzug möglich</li>
+      </ul>
+
+      <h2>4. Datenverarbeitung</h2>
+      <p>Zur Bereitstellung unserer Dienste werden technische Daten verarbeitet:</p>
+      <ul class="list">
+        <li>Discord IDs</li>
+        <li>Server- und Kanal-IDs</li>
+        <li>Rollen & Einstellungen</li>
+        <li>Logs & Nutzungsdaten</li>
+        <li>IP-Adressen</li>
+      </ul>
+
+      <p>Daten werden ausschließlich für Betrieb, Sicherheit und Verbesserung genutzt.</p>
+
+      <h2>5. Verfügbarkeit</h2>
+      <p>Keine Garantie auf permanente Verfügbarkeit oder fehlerfreien Betrieb.</p>
+
+      <h2>6. Haftung</h2>
+      <p>Keine Haftung für Datenverlust, Ausfälle oder indirekte Schäden.</p>
+
+      <h2>7. Sperrung</h2>
+      <p>Sperrung bei Verstößen, Zahlungsverzug oder Sicherheitsrisiken jederzeit möglich.</p>
+
+      <h2>8. Änderungen</h2>
+      <p>Änderungen können jederzeit erfolgen und gelten sofort nach Veröffentlichung.</p>
+
+      <h2>9. Kontakt</h2>
+      <p>E-Mail: [E-Mail] – Inhaber: David</p>
+      <p>Discord: [hier einfügen]</p>
+
+      <div class="footer">
+        Diese Seite wurde professionell gestaltet für maximale Klarheit und Lesbarkeit.
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
